@@ -193,13 +193,9 @@ public class ShowActivity extends AppCompatActivity {
         int timePlos = Integer.parseInt(tvTimePlos.getText().toString());
 
 
-        //int timeOver = Integer.parseInt(Constant.PRODUCT_TIME_OVER);
-       // int timeUni = Integer.parseInt(Constant.PRODUCT_TIME_UNI);
-        //int timePlos = Integer.parseInt(Constant.PRODUCT_TIME_PLOS);
-
-        int overHour = colPartI * colOverI * timeOver/60;
-        int uniHour = colPartI * colUniI * timeUni/60;
-        int plosHour = colPartI * colPlosI * timePlos/60;
+        int overHour = colPartI * timeOver/60/colOverI;
+        int uniHour = colPartI  * timeUni/60/colUniI;
+        int plosHour = colPartI * timePlos/60/colPlosI;
         int overDay = overHour/8;
         int uniDay = uniHour/8;
         int plosDay = plosHour/8;
