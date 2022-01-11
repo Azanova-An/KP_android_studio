@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">KPIris</string>
+    <string name="name">Наименование</string>
+    <string name="time_over">Время оверлока, мин</string>
+    <string name="time_uni">Время универсала, мин</string>
+    <string name="time_plos">Время плоскошовки, мин</string>
+    <string name="part">Партия</string>
+    <string name="ed">ед.</string>
+    <string name="col">количество машин:</string>
+    <string name="Over">Оверлок</string>
+    <string name="Uni">Универсал</string>
+    <string name="Plos">Плоскошовка</string>
+    <string name="time_part">Время на партию:</string>
+    <string name="time_hour">часов:</string>
+    <string name="time_day">дней:</string>
+    <string name="back">выход</string>
+    <string name="calk">расчитать время изготовления</string>
+    <string name="calk2">Расчитать</string>
+</resources>
