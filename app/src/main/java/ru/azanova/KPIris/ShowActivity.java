@@ -241,7 +241,6 @@ public class ShowActivity extends AppCompatActivity {
         {
             calkPart();
             calk();
-            calktest();
 
         }
         else
@@ -251,9 +250,5 @@ public class ShowActivity extends AppCompatActivity {
 
     }
 
-    private void calktest() {
-
-
-    }
 }
 
